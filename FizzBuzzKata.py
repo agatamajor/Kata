@@ -2,7 +2,7 @@ import unittest
 
 
 def get_answer(number):
-    if number==15:
+    if number % 15==0:
         return "FizzBuzz"
     if number % 3==0:
         return "Fizz"
@@ -19,3 +19,4 @@ assert (get_answer(6)=="Fizz")
 assert (get_answer(5)=="Buzz")
 assert (get_answer(10)=="Buzz")
 assert (get_answer(15)=="FizzBuzz")
+assert (get_answer(30)=="FizzBuzz")
