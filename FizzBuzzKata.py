@@ -20,3 +20,8 @@ assert (get_answer(5)=="Buzz")
 assert (get_answer(10)=="Buzz")
 assert (get_answer(15)=="FizzBuzz")
 assert (get_answer(30)=="FizzBuzz")
+
+for number in range(1,100):
+    print("number=", number)
+    print("get_answer=", get_answer(number))
+
